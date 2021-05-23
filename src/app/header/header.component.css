@@ -1,0 +1,15 @@
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.logo_icon {
+    flex: 2 0 0;
+    margin-left: 7%;
+}
+.hamberger_icon {
+    flex: 0 0 0;
+    margin-right: 7%;
+    margin-top: 19px;
+}
+
