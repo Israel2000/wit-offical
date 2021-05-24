@@ -5,4 +5,24 @@
 
 .para_wrap {
     text-align: center;
+    color: #0D2650;
+}
+p:first-child  {
+    font-size: 50px;
+    margin-top: 2%;
+
+}
+
+p:nth-child(2) {
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+button {
+    width: 261px;
+    height: 62px;
+    background-color: #0D2650;
+    font-size: 23px;
+    color: white;
+    border: none;
 }
