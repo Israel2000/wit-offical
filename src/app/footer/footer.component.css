@@ -1,0 +1,36 @@
+hr.line_drawn{
+    border: 1px solid #0D2650;
+    margin-top: 8%;
+    margin-bottom: -5%;
+}
+
+.footer_container {
+    display: flex;
+    margin-top: 5%;
+    color: #0D2650;
+}
+
+span {
+    flex: 2 0 0;
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 25px;
+
+}
+nav {
+    margin-right: 7%;
+    margin-top: -1%;
+
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    flex: 0 0 0;
+
+}
+
+li {
+    padding: 23px;
+    font-size: 25px;
+
+}
