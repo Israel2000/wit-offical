@@ -26,20 +26,30 @@ input, textarea, button {
     width: 400px;
     height: 47px;
     margin: 6px;
+    padding-left: 1%;
+    border-radius: 5px;
 }
 textarea {
     height: 65px;
     font-size: 20px;
     font-family: 'Arimo', sans-serif;
+
     border: 1px solid #0D2650;
 }
 /* button {
     width: 407px;
+    border: none;
+    padding-top: 1%;
+}
+button {
+    width: 416px;
+
     height: 47px;
     background-color: #0D2650;
     color: white;
     border: none;
     font-size: 20px;
+
 } */
 .submit_btn{
   background-color: #0D2650;
@@ -47,6 +57,7 @@ textarea {
   color: white;
   letter-spacing: 1px;
   width: 407px;
+  border-radius: 5px;
 }
 input {
     font-size: 20px;
@@ -65,8 +76,8 @@ input {
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  font-size: 18px;
+  width: 23px;
   text-align: center;
   text-decoration: none;
 }
