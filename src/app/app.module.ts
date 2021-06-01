@@ -8,6 +8,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SectionComponent } from './section/section.component';
+import { WorkDetailsComponent } from './work-details/work-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SectionComponent } from './section/section.component';
     ContactPageComponent,
     HeaderComponent,
     FooterComponent,
-    SectionComponent
+    SectionComponent,
+    WorkDetailsComponent
   ],
   imports: [
     BrowserModule,
