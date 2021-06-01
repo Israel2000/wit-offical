@@ -31,22 +31,28 @@ textarea {
     height: 65px;
     font-size: 20px;
     font-family: 'Arimo', sans-serif;
-    border: none;
+    border: 1px solid #0D2650;
 }
-button {
+/* button {
     width: 407px;
     height: 47px;
     background-color: #0D2650;
     color: white;
     border: none;
     font-size: 20px;
+} */
+.submit_btn{
+  background-color: #0D2650;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  width: 407px;
 }
-
 input {
     font-size: 20px;
     /* padding: 2%; */
     color: grey;
-    border: none;
+    border: 1px solid #0D2650;
 }
 .container {
     display: flex;
