@@ -32,5 +32,10 @@ ul {
 li {
     padding: 23px;
     font-size: 25px;
+}
 
+a {
+    color: #0D2650;
+    
+    text-decoration: none;
 }
