@@ -17,6 +17,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 
 import { WorkDetailsComponent } from './work-details/work-details.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { WorkDetailsComponent } from './work-details/work-details.component';
     HeaderComponent,
     FooterComponent,
     SectionComponent,
-    WorkDetailsComponent
+    WorkDetailsComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

@@ -42,14 +42,11 @@ textarea {
     padding-top: 1%;
 }
 button {
-    width: 416px;
-
     height: 47px;
     background-color: #0D2650;
     color: white;
     border: none;
     font-size: 20px;
-
 } */
 .submit_btn{
   background-color: #0D2650;
@@ -70,9 +67,17 @@ input {
 }
 .company_info {
     color: #0D2650;
-    margin-left: 41px;
-    margin-top: -10px
+    margin-left: 9%;
+    margin-top: 6%;
 }
+span {
+      font-weight: bold;
+      display: inline-block;
+      padding-bottom: 5px;
+      border-bottom: 1px #0D2650 solid;
+}
+
+
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -93,6 +98,7 @@ input {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  border-radius: 5px;
 }
 
 
@@ -108,18 +114,21 @@ input {
   background: #55ACEE;
   color: white;
   margin: 6px;
+  border-radius: 5px;
 }
 
 .fa-youtube {
   background: #bb0000;
   color: white;
   margin: 6px;
+  border-radius: 5px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
   margin: 6px;
+  border-radius: 5px;
 }
 
 .social_media {
@@ -127,4 +136,6 @@ input {
    flex-direction: row;
    justify-content: flex-end;
    margin-right: 9%;
+   margin-left: -2%;
+   margin-top: 2%;
 }

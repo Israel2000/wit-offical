@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap');
+
+.dotts_img {
+  text-align: center;
+  margin-top: 4%;
+}
+.about_wrapper {
+    color: #0D2650;
+}
+.title_bg {
+    background-color: #d1e2e5;
+    margin: 0 8%;
+    padding: 3%;
+}
+.box_container {
+     margin: -3% 8%;
+     /* border: 1px solid red; */
+     background-color: white;
+     padding: 2%;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 47px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+button {
+    width: 261px;
+    height: 62px;
+    background-color: #0D2650;
+    font-size: 23px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
