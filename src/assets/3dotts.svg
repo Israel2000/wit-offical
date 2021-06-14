@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="374.98" height="101.522" viewBox="0 0 374.98 101.522">
-  <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(0 101.522) rotate(-90)" fill="#fff" stroke="#0d2650" stroke-width="7">
+  <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(0 101.522) rotate(-90)" fill="#ff8989" stroke="#0d2650" stroke-width="12">
     <circle cx="50" cy="50" r="50" stroke="none"/>
-    <circle cx="50" cy="50" r="46.5" fill="none"/>
+    <circle cx="50" cy="50" r="44" fill="none"/>
   </g>
-  <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(274.98 100) rotate(-90)" fill="#fff" stroke="#0d2650" stroke-width="7">
+  <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(274.98 100) rotate(-90)" fill="#ff8989" stroke="#0d2650" stroke-width="12">
     <circle cx="50" cy="50" r="50" stroke="none"/>
-    <circle cx="50" cy="50" r="46.5" fill="none"/>
+    <circle cx="50" cy="50" r="44" fill="none"/>
   </g>
   <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(137.49 100.761) rotate(-90)" fill="#0d2650" stroke="#000" stroke-width="1">
     <circle cx="50" cy="50" r="50" stroke="none"/>
