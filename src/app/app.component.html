@@ -1,6 +1,40 @@
-<app-header></app-header>
+<div class="header_wrapper">
+    <div class="logo_icon">
+        <a routerLink="" routerLinkActive="active">
+            <img src="./assets/WIT.svg" width="100px" />
+        </a>
+    </div>
+    <div class="hamberger_icon">
 
-<router-outlet></router-outlet>
 
-<app-footer></app-footer>
+        <button style="width: 50px;
+        border-radius: 100px;" mat-icon-button>
+            <mat-icon (click)="sidenav.toggle()" style="font-size:36px;color: #0D2650; height: auto; width: auto;">menu
+            </mat-icon>
+        </button>
+    </div>
+</div>
+
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav>
+        <mat-nav-list>
+            <a mat-list-item [routerLink]="['']" (click)="sidenav.toggle()"> Home </a>
+            <a mat-list-item [routerLink]="['about']" (click)="sidenav.toggle()"> About </a>
+            <a mat-list-item [routerLink]="['work']" (click)="sidenav.toggle()"> Work </a>
+            <a mat-list-item [routerLink]="['Contact']" (click)="sidenav.toggle()"> Contact </a>
+
+            <!-- <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a> -->
+
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content style="height: 95vh; background-color: #889CBC;">
+            <router-outlet></router-outlet>
+            <app-footer></app-footer>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+
 

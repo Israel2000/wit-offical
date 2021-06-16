@@ -1,0 +1,22 @@
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #889CBC;
+    align-items: center;
+}
+.logo_icon {
+    flex: 2 0 0;
+    margin-left: 7%;
+}
+.hamberger_icon {
+    flex: 0 0 0;
+    margin-right: 7%;
+   margin-top: 11px;
+
+}
+
+.mat-list-item{
+    font-size: 40px !important;
+    padding-left: 90px !important;
+    margin: 10px 0px !important;
+}

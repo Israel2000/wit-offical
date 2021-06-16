@@ -9,7 +9,6 @@ import { WorkDetailsComponent } from './work-details/work-details.component';
 const routes: Routes = [
   { path: '', component: SectionComponent },
   { path: 'Contact', component: ContactPageComponent },
-  { path: 'About', component: AboutPageComponent },
   { path: 'work', component: WorkDetailsComponent },
   { path: 'about', component: AboutUsComponent }
 
