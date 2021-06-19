@@ -55,6 +55,7 @@ button {
   letter-spacing: 1px;
   width: 407px;
   border-radius: 5px;
+  border: none;
 }
 input {
     font-size: 20px;
