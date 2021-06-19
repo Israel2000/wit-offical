@@ -64,6 +64,7 @@ div.work_1 {
     .para {
         text-align: justify;
         font-size: 16px;
+        margin-bottom: 4%;
     }
     .my-button {
         background-color: #0D2650;

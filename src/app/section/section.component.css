@@ -10,7 +10,7 @@
 p:first-child  {
     font-size: 50px;
     margin-top: 2%;
-
+    margin-bottom: 3%;
 }
 
 p:nth-child(2) {

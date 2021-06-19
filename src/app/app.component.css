@@ -3,6 +3,7 @@
     flex-direction: row;
     background-color: #889CBC;
     align-items: center;
+    margin-top: 3%;
 }
 .logo_icon {
     flex: 2 0 0;
@@ -11,12 +12,18 @@
 .hamberger_icon {
     flex: 0 0 0;
     margin-right: 7%;
-   margin-top: 11px;
+   margin-top: -1%;
 
 }
 
-.mat-list-item{
+.mat-list-item i{
     font-size: 40px !important;
     padding-left: 90px !important;
     margin: 10px 0px !important;
+    color: #889CBC;
+    font-size: 25px !important;
+}
+
+a > i {
+    padding-left: 1% !important;
 }
