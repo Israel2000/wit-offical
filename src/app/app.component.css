@@ -15,7 +15,16 @@
    margin-top: -1%;
 
 }
-
+.sideNav{
+    width: 25%;
+}
+.fa{
+    margin-right: 10px;
+}
+.links{
+    font-size: 30px !important;
+    margin-bottom: 10% !important;
+}
 .mat-list-item i{
     font-size: 40px !important;
     padding-left: 90px !important;
