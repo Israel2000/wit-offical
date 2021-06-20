@@ -8,6 +8,8 @@ h3 {
     margin-left: 0.5%;
     font-size: 25px;
     color: #0D2650;
+
+    margin-bottom: 20px;
 }
 
 .form_wrapper {
@@ -21,6 +23,11 @@ form {
    flex-direction: column;
    align-items: flex-start;
 
+}
+form > label {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-weight: 600;
 }
 input, textarea, button {
     width: 400px;
@@ -71,7 +78,7 @@ input {
     margin-left: 9%;
     margin-top: 6%;
 }
-span {
+.company_info  > span {
       font-weight: bold;
       display: inline-block;
       padding-bottom: 5px;

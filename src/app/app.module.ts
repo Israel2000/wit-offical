@@ -19,6 +19,25 @@ import {MatButtonModule} from '@angular/material/button';
 import { WorkDetailsComponent } from './work-details/work-details.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 
+import {ReactiveFormsModule} from '@angular/forms'
+
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+
+import { ToastrModule } from 'ngx-toastr';
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAAv_0pV4QtcoLsacGgS5zf1ePW3AVA5Wo",
+  authDomain: "witofficial-7e893.firebaseapp.com",
+  projectId: "witofficial-7e893",
+  storageBucket: "witofficial-7e893.appspot.com",
+  messagingSenderId: "795388323743",
+  appId: "1:795388323743:web:8da7405fc6a8bb4d43bfaa",
+  measurementId: "G-R61N3DR5RB"
+};
+
 
 @NgModule({
   declarations: [
@@ -39,7 +58,13 @@ import { AboutUsComponent } from './about-us/about-us.component';
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    AngularFireModule.initializeApp(firebaseConfig), // Required for everything
+    AngularFirestoreModule, // Only required for database features
+    AngularFireAuthModule, // Only required for auth features,
+    AngularFireStorageModule,
+    ReactiveFormsModule,
+    ToastrModule.forRoot() // ToastrModule added
 
   ],
   providers: [],

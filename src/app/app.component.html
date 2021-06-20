@@ -14,26 +14,30 @@
 </div>
 
 <mat-sidenav-container>
-    <mat-sidenav #sidenav>
-        <mat-nav-list>
-            <a mat-list-item [routerLink]="['']" (click)="sidenav.toggle()"> <i class="fa fa-home"
-                    style="font-size:36px">Home</i>
-            </a>
-            <a mat-list-item [routerLink]="['about']" (click)="sidenav.toggle()"> <i class="fa fa-vcard-o"
-                    style="font-size:36px">About</i>
-            </a>
-            <a mat-list-item [routerLink]="['work']" (click)="sidenav.toggle()"> <i class="fa fa-code"
-                    style="font-size:36px">Work</i>
-            </a>
-            <a mat-list-item [routerLink]="['Contact']" (click)="sidenav.toggle()"> <i class="fa fa-envelope"
-                    style="font-size:36px">Contact</i>
-            </a>
+    <mat-sidenav #sidenav class="sideNav">
+        <mat-nav-list style="padding-left: 10%;">
 
+            <a class="links" mat-list-item [routerLink]="['']" (click)="sidenav.toggle()">
+                <i class="fa fa-home" style="font-size:36px !important; margin-right: 10px !important;width: 35px;"></i>
+                Home
+            </a>
+            <a class="links" mat-list-item [routerLink]="['about']" (click)="sidenav.toggle()">
+                <i class="fa fa-vcard-o" style="font-size:36px;margin-right: 10px !important;width: 35px;"></i>
+                About
+            </a>
+            <a  class="links" mat-list-item [routerLink]="['work']" (click)="sidenav.toggle()">
+                <i class="fa fa-code" style="font-size:36px;margin-right: 10px !important;width: 35px;"></i>
+                Work
+            </a>
+            <a class="links" mat-list-item [routerLink]="['Contact']" (click)="sidenav.toggle()">
+                <i class="fa fa-envelope" style="font-size:36px;margin-right: 10px !important;width: 35px;"></i>
+                Contact
+            </a>
             <!-- <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a> -->
 
         </mat-nav-list>
     </mat-sidenav>
-    <mat-sidenav-content style="height: 95vh; background-color: #889CBC;">
+    <mat-sidenav-content style="background-color: #889CBC;">
         <router-outlet></router-outlet>
         <app-footer></app-footer>
     </mat-sidenav-content>
