@@ -11,8 +11,10 @@
                 <input [ngClass]="{invalid: (name.touched && name.invalid) || name.errors?.pattern }" type="text"
                     formControlName="name" class="form-control" required>
                 <!-- Showing errors using getter method -->
-                <p *ngIf="name.touched && name.invalid" class="error"><sup>*</sup>Please enter atleast first name</p>
-                <p *ngIf="name.errors?.minlength" class="error"><sup>*</sup>Name shouldn't be less than 2 words</p>
+                <p *ngIf="name.touched && name.invalid" class="error" style="margin-left: 4%;"><sup>*</sup><span
+                        style="color: #c20229;">Please enter at least first name</span></p>
+                <p *ngIf="name.errors?.minlength" class="error"><sup style="color: #c20229;"> *</sup>Name shouldn't be
+                    less than 2 words</p>
 
 
                 <label>Email<span style="color: red;">*</span>
@@ -41,7 +43,7 @@
                 <input type="text" formControlName="message" class="form-control">
 
 
-                <button class="submit_btn"  mat-raised-button >Submit</button>
+                <button class="submit_btn" mat-raised-button>Submit</button>
             </form>
         </div>
         <div class="company_info">
