@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "gh-page -d dist"
+    "deploy": "gh-pages -d build"
   },
   "private": true,
   "homepage": "https://israel2000.github.io/wit-offical/",
