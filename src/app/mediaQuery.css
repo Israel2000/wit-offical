@@ -1,0 +1,8 @@
+/* main media query */
+@media only screen and (max-width: 600px) {
+    /* home page - app.component */
+    .hamberger_icon {
+        margin-right: 9%;
+        margin-top: -5%;
+    }
+}

@@ -160,3 +160,15 @@ input {
    margin-left: -2%;
    margin-top: 2%;
 }
+/* media query - contact page */
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .social_media {
+    /* display: none; */
+    display: block;
+    
+  }
+}

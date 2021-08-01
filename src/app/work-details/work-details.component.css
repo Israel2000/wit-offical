@@ -17,7 +17,11 @@ div.work_1 {
     padding-top: 3%;
 }
 
-
+  hr.work-hr{
+    border: 1px solid #0D2650;
+    margin-top: 8%;
+    margin-bottom: -5%;
+}
 .window {
     width: 300px;
     height: 200px;
@@ -29,6 +33,7 @@ div.work_1 {
         display: flex;
         flex-direction: row;
         margin-top: 5%;
+        margin-left: 3%;
     }
 
     .colunms {
@@ -45,7 +50,9 @@ div.work_1 {
         text-align: left;
         margin-left: 5%;
     }
+    .work-mid-odd {
 
+    }
     div.columns > img {
         margin-left: 19%;
     }
@@ -84,4 +91,22 @@ div.work_1 {
         background-color: white;
         color: #0D2650;
         border: 1px solid#0D2650;
+    }
+
+        /* media quieries - work  */
+    @media only screen and (max-width: 600px) {
+
+        p {
+            font-size: 30px;
+        }
+    .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    div.columns > img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+  
     }

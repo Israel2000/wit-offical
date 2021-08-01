@@ -52,3 +52,24 @@ a {
 p {
     margin-bottom: 1%;
 }
+
+/* media quieries - about us */
+@media only screen and (max-width: 600px) {
+    
+    h3 {
+    font-size: 28px;
+    margin-bottom: 1%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+p {
+    margin: 6%;
+}
+button {
+    margin-left: 6%;
+    width: 195px;
+    height: 43px;
+    font-size: 20px;
+}
+
+}

@@ -33,3 +33,26 @@ a {
     color: white;   
     text-decoration: none;
 }
+
+/* media quieries - section*/
+@media only screen and (max-width: 600px) {
+    
+    p:first-child{
+        font-size: 38px !important;
+        margin: 4%;
+    }
+    p:nth-child(2) {
+        font-size: 21px;
+        margin-bottom: 3%;
+        margin-top: 7%;
+    }
+    button {
+        width: 213px;
+        height: 45px;
+        background-color: #0D2650;
+        font-size: 19px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+}
