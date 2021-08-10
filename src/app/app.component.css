@@ -44,4 +44,10 @@ a > i {
         margin-right: 9%;
         margin-top: -3%;
     }
+    .mat-nav-list {
+        margin-left: -82px
+    }
+    .sideNav{
+    width: 40%;
+}
 }
